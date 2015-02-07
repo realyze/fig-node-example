@@ -23,3 +23,6 @@ echo "$(boot2docker ip 2> /dev/null) localdocker" | sudo tee -a /etc/hosts
 
 ## Test
 `curl localdocker:3000` should return "Hello world! I'm running in docker!".
+
+## Kudos
+Shamelessly based on [fig-node](https://github.com/clonn/fig-node).
